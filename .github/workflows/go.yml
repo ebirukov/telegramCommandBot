@@ -32,5 +32,6 @@ jobs:
         heroku_email: "johnsoft@yandex.ru"
         usedocker: true
         region: "eu"
+        docker_heroku_process_type: "worker"
       env:
         HD_TELEGRAM_APITOKEN: ${{secrets.TELEGRAM_APITOKEN}}

@@ -33,6 +33,5 @@ jobs:
         usedocker: true
         region: "dublin"
         docker_heroku_process_type: "worker"
-        env_file: ".env"
       env:
-        HD_TELEGRAM_APITOKEN: ${{ secrets.TELEGRAM_APITOKEN }}
+        HD_TELEGRAM_APITOKEN: ${{secrets.TELEGRAM_APITOKEN}}

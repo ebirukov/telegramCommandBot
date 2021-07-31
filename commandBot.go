@@ -8,6 +8,12 @@ import (
 )
 
 func main() {
+	log.Println("--- arg ---")
+	for _, arg := range os.Args[:] {
+		log.Println(arg)
+	}
+	log.Println("--- end arg ---")
+
 	log.Println("--- env ---")
 	for _, e := range os.Environ() {
 		log.Println(e)

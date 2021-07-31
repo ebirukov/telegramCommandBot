@@ -31,6 +31,7 @@ jobs:
         heroku_app_name: "telegram-command-bot"
         heroku_email: "johnsoft@yandex.ru"
         usedocker: true
+        region: "dublin"
         docker_heroku_process_type: "worker"
         docker_build_args: |
           TELEGRAM_APITOKEN

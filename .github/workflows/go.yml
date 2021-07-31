@@ -34,4 +34,4 @@ jobs:
         docker_build_args: |
           TELEGRAM_APITOKEN
       env:
-        SECRET_KEY: ${{ secrets.TELEGRAM_APITOKEN }}
+        TELEGRAM_APITOKEN: ${{ secrets.TELEGRAM_APITOKEN }}

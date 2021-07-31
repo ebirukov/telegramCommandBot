@@ -1,4 +1,4 @@
 FROM scratch
-COPY ecs-status-manager /ecs-status-manager
+COPY telegramCommandBot /telegramCommandBot
 ADD ca-certificates.crt /etc/ssl/certs/
-ENTRYPOINT ["/ecs-status-manager"]
+ENTRYPOINT ["/telegramCommandBot"]

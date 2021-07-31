@@ -9,11 +9,6 @@ import (
 
 func main() {
 
-	log.Println("--- env ---")
-	for _, e := range os.Environ() {
-		log.Println(e)
-	}
-	log.Println("--- end env ---")
 	bot, err := tgbotapi.NewBotAPI(os.Getenv("TELEGRAM_APITOKEN"))
 	if err != nil {
 		log.Panic(err)

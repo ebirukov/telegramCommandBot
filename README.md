@@ -8,6 +8,8 @@ Deployed to Heroku using github [Action](https://github.com/marketplace/actions/
 
 Add [GitHub Secrets](https://docs.github.com/en/actions/reference/encrypted-secrets)
 
-HEROKU_API_KEY (You can find it in your heroku homepage account settings)
+HEROKU_API_KEY - API key for authentication. You can find it in your heroku homepage account settings
 
 TELEGRAM_APITOKEN - [telegram bot api token](https://tlgrm.ru/docs/bots#kak-sozdat-bota)
+
+HEROKU_EMAIL - Email that you use with heroku
